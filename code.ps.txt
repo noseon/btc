@@ -1,0 +1,16 @@
+namespace SomaQuantica {
+
+    @EntryPoint()
+    operation core() : Unit {
+        // Define os números a serem somados (pode substituir pelos valores desejados).
+        let numeroA = 3;
+        let numeroB = 9;
+
+        // Aplica a soma quântica dos dois números.
+        let resultado = numeroA*numeroB;
+
+        // Imprime o resultado (pode substituir por outras operações desejadas).
+        Message($"Resultado da Soma Quântica: {resultado}");
+    }
+
+}
